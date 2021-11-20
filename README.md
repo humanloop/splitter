@@ -49,25 +49,6 @@ function MyComponent() {
 export default MyComponent;
 ```
 
-### Vertical split
-
-```tsx {"cell-id":"PqY0M7","running-env-id":"08b1bd051aed","running-env-local-id":"F9Mf5L","template-id":"nextjs-v11-components","cell-name":"Untitled-Xrr"}
-import Splitter, { SplitDirection } from '@devbookhq/splitter'
-
-function MyComponent() {
-  return (
-    <Splitter
-      direction={SplitDirection.Vertical}  
-    >
-      <div className="tile">Tile 1</div>
-      <div className="tile">Tile 2</div>
-    </Splitter>
-  );
-}
-
-export default MyComponent;
-```
-
 ### Nested split
 
 ```tsx {"cell-id":"Wu9K0r","running-env-id":"08b1bd051aed","running-env-local-id":"F9Mf5L","template-id":"nextjs-v11-components","cell-name":"Untitled-SxS"}
