@@ -45,8 +45,6 @@ function MyComponent() {
     </Splitter>
   );
 }
-
-export default MyComponent;
 ```
 
 ### Nested split
