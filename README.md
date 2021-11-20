@@ -34,7 +34,7 @@ yarn add @devbookhq/splitter
 
 ### Horizontal split
 
-```tsx {"cell-id":"hejNBw","running-env-id":"08b1bd051aed","running-env-local-id":"F9Mf5L","template-id":"nextjs-v11-components","cell-name":"Untitled-hls"}
+```tsx {"cell-id":"hejNBw","running-env-id":"e1dfdabf8e81","running-env-local-id":"F9Mf5L","template-id":"nextjs-v11-components","cell-name":"Untitled-hls"}
 import Splitter, { SplitDirection } from '@devbookhq/splitter'
 
 function MyComponent() {
@@ -45,11 +45,29 @@ function MyComponent() {
     </Splitter>
   );
 }
+export default MyComponent;
+```
+
+### Vertical split
+
+```tsx {"cell-id":"GXcyeT","running-env-id":"e1dfdabf8e81","running-env-local-id":"F9Mf5L","template-id":"nextjs-v11-components","cell-name":"Untitled-cXs"}
+import Splitter, { SplitDirection } from '@devbookhq/splitter'
+
+function MyComponent() {
+  return (
+    <Splitter direction={SplitDirection.Vertical}>
+      <div className="tile">Tile 1</div>
+      <div className="tile">Tile 2</div>
+    </Splitter>
+  );
+}
+
+export default MyComponent;
 ```
 
 ### Nested split
 
-```tsx {"cell-id":"Wu9K0r","running-env-id":"08b1bd051aed","running-env-local-id":"F9Mf5L","template-id":"nextjs-v11-components","cell-name":"Untitled-SxS"}
+```tsx {"cell-id":"Wu9K0r","running-env-id":"e1dfdabf8e81","running-env-local-id":"F9Mf5L","template-id":"nextjs-v11-components","cell-name":"Untitled-SxS"}
 import Splitter, { SplitDirection } from '@devbookhq/splitter'
 
 function MyComponent() {
@@ -72,7 +90,7 @@ export default MyComponent;
 
 ### Get sizes of tiles
 
-```tsx {"cell-id":"h2cYey","running-env-id":"08b1bd051aed","running-env-local-id":"F9Mf5L","template-id":"nextjs-v11-components","cell-name":"Untitled-XF6"}
+```tsx {"cell-id":"h2cYey","running-env-id":"e1dfdabf8e81","running-env-local-id":"F9Mf5L","template-id":"nextjs-v11-components","cell-name":"Untitled-XF6"}
 import Splitter, { SplitDirection } from '@devbookhq/splitter'
 
 function MyComponent() {
